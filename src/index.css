@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  overflow-x: hidden
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Philosopher", sans-serif;
+}
+:root{
+  --font-color: #D59E45;
+  --hover-color: #CDBCA9;
+  --border-color: #936D45;
+  --btn-bg: #484731;
+  --white-font: #ffffff;
+  --btn-hover: #5a594a;
+  --black-color: black;
+  --para-color: #433E37;
+  --para-font: #9C7954;
+  --pink-bg: #FFF9EF;
+  --grey-bg: #f5e1ed;
+  --bg-grey: #F0F0F1;
+  --hover-color: #A99381;
+  --red-color: #FF0000;
+  --dark-pink: #EF2853;
+}

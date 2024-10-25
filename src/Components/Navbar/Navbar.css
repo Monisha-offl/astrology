@@ -1,0 +1,153 @@
+.nav{
+    border-bottom: solid 1px var(--border-color);
+    background-color: var(--pink-bg);
+}
+.navbar{
+    width: 90%;
+    margin: 0 auto;
+    height: 110px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-i{
+    border-bottom: solid 1px var(--border-color);
+    padding-bottom: 3px;
+}
+.nav-logo{
+    width: 12%;
+    height: 86%;
+    display: flex;
+    align-items: center;
+}
+.nav-logo img{
+    width: 100%;
+    height: 100%;
+}
+.nav-list{
+    display: flex;
+    width: 55%;
+    align-items: center;
+    gap: 47px;
+}
+.nav-h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: var(--black-color);
+    gap: 2px;
+}
+.nav-h h4{
+    font-size: 19px;
+}
+.nav-h p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-h:hover{
+    color: var(--hover-color);
+    transition: 0.5s;
+}
+.nav-h:hover p{
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+.menu-icon{
+    font-size: 30px;
+    margin-right: 23px;
+    display: none;
+}
+.nav-icons{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.icon1{
+    width:70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon1 img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+    animation: rotation1 10s infinite linear;
+    cursor: pointer;
+}
+.icon1 p{
+    font-size: 23px;
+    position: absolute;
+    top: 42px;
+    right: 24px;
+    cursor: pointer;
+} 
+  @keyframes rotation1 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.phn-number{
+    width: 160px;
+    height: 40px;
+    background-color: var(--pink-bg);
+    display: flex;
+    border: solid 1px var(--border-color);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+}
+.dropdown-content {
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    background-color: var(--pink-bg);
+    border-top: solid 1px var(--border-color);
+    width: 160px;
+    left: 44%;
+    top: 80px;
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    height: 170px;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-size: 18px;
+}
+.service-drop:hover .dropdown-content{
+    display: block; 
+  }
+.service-drop{
+    position: relative;
+} 
+.dropdown-content h5{
+    cursor: pointer;
+}
+@media (max-width:600px) {
+    .nav-list{
+        display: none;
+    }
+    .nav-logo{
+        width: 34%;
+        height: 80%;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
