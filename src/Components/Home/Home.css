@@ -255,9 +255,11 @@
 }
 .stage-award1{
     width: 80%;
+
     height: 330px;
     background-color: var(--bg-grey);
     border-radius: 15px;
+    
     border: dotted 1px var(--font-color);
     cursor: pointer;
     display: flex;
