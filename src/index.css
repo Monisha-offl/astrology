@@ -19,6 +19,14 @@ code {
   box-sizing: border-box;
   font-family: "Philosopher", sans-serif;
 }
+body{
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+html{
+  overflow-x: hidden;
+}
 :root{
   --font-color: #D59E45;
   --hover-color: #CDBCA9;
