@@ -95,7 +95,7 @@ const Home = () => {
                     </div>
             </div>
         </div>    
-        <div className='position-div animate__animated animate__backInLeft'>
+        {/* {/* <div className='position-div'> */}
             <div className='stage-awards-bg'>
                     <div className='stage-awards'>
                         <div className='stage-award1'>
@@ -139,8 +139,8 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-        </div>
+            </div>
+        {/* </div>  */}
         <div className='reviews animate__animated animate__flipInX'>
             <div className='review-img'>
                 <img src={eye} alt="" />
