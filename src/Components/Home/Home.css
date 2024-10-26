@@ -531,7 +531,7 @@
     position: relative;
 }
 .queries-content{
-    width: 70%;
+    width: 78%;
     height: 300px;
     position: absolute;
     top: 50px;
@@ -695,18 +695,25 @@
 
 
 @media (max-width: 600px){
+
+    body{
+        overflow-x: hidden;
+    }
+
     .home-div{
         flex-direction: column-reverse;
     }
     .chakra img{
-        width: 180px;
-        height: 180px;
+        width: 140px;
+        height: 140px;
         position: absolute;
-        bottom: 27%;
-        right: 0;
+        bottom: 39%;
+        right: 10%;
     }
     .profile-img{
-        height: 500px;
+        width: 80%;
+        height: 430px;
+        margin: 0 auto;
     }
     .profile-img img{
         width: 100%;
@@ -774,7 +781,7 @@
     }
     .leading-wholediv{
         flex-direction: column-reverse;
-        height: 95vh;
+        height: 100vh;
     }
     .leading-content{
         margin-top: 0;
@@ -823,7 +830,6 @@
     }
     .star-img{
         top: -3%;
-    
     }
     .bg-image{
         height: 280px;

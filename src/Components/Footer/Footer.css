@@ -90,6 +90,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    text-align: start;
 }
 .end-footer{
     width: 85%;
@@ -146,6 +147,7 @@
     }
     .important{
         width: 85%;
+        text-align: start;
     }
     .end-footer{
         flex-direction: column;
