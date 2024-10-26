@@ -60,7 +60,7 @@ const Home = () => {
                 </div>
             </div>  
         </div>
-        <div className='highlights-container'>
+        {/* <div className='highlights-container'>
             <div className='highlights'>
                     <p>Top rated astro palmist</p>
                     <p>Two times president’s award winner</p>
@@ -69,7 +69,7 @@ const Home = () => {
                     <p>The best astrologer in India</p>
                     <p>Vedic Astrologer</p> 
             </div>
-        </div>
+        </div> */}
         <div className='award-div animate__animated animate__flipInX'>
             <img src={award1} alt="" />
             <img src={award2} alt="" />
