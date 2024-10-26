@@ -37,7 +37,7 @@ const Home = () => {
     <>
      <div className='home'>
         <div className='home-div'>
-            <div className='intro animate__animated animate__backInLeft'>
+            <div className='intro'>
                 <h1 >The most trusted name in the field of Astrology in India</h1>
                 <p>Unlock the wisdom of the stars and gain deeper insights into your life's path.  With a blend of traditional techniques and modern insights, I offer personalized astrological consultations designed to bring alignment and balance into your life. Let the cosmos illuminate your way!</p>
                 <h4>Dr. Sohini Sastri</h4>
@@ -69,8 +69,8 @@ const Home = () => {
                     <p>The best astrologer in India</p>
                     <p>Vedic Astrologer</p> 
             </div>
-        </div> */}
-        <div className='award-div animate__animated animate__flipInX'>
+        </div>
+        <div className='award-div'>
             <img src={award1} alt="" />
             <img src={award2} alt="" />
             <img src={award3} alt="" />
