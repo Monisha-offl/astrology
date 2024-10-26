@@ -90,6 +90,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.important h5{
     text-align: start;
 }
 .end-footer{
@@ -147,7 +149,6 @@
     }
     .important{
         width: 85%;
-        text-align: start;
     }
     .end-footer{
         flex-direction: column;
