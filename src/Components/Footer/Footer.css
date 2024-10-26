@@ -62,6 +62,7 @@
 .info1 h5{
     font-weight: 400;
     color: var(--black-color);
+    text-align: start;
 }
 .usefull-links{
     display: flex;
