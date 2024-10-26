@@ -54,9 +54,8 @@ const Home = () => {
             <div className='position-img'>
                 <div className='profile-img'>
                     <img src={profile} alt="" />
-                </div>
-                <div className='chakra'>
-                    <img src={chakra} alt="" />
+                    <img src={chakra} alt="" className='chakra' />
+
                 </div>
             </div>  
         </div>

@@ -91,25 +91,24 @@
     display: flex;
     /* justify-content: center; */
     align-items: center;
+    position: relative;
+    background-color: aqua;
+    
 }
 .profile-img img{
     width: 71%;
     height: 100%;
-    position: relative;
-}
-.chakra{
-    /* width: 350px;
-    height: 350px; */
-    display: flex;
-    align-items: center;
-}
-.chakra img{
-    width: 300px;
-    height: 300px;
     position: absolute;
-    bottom: 70px;
-    right: 95px;
-    animation: slide-in 2s ease-out forwards, rotate 13s linear infinite 2s;
+    right: 0;
+}
+
+.chakra{
+    width: 300px !important;
+    height: 300px !important;
+    position: absolute !important;
+    bottom: 240px !important;
+    right: 50px !important;
+    animation: slide-in 2s ease-out forwards, rotate 13s linear infinite 2s !important;
 }
 @keyframes slide-in {
     0% {
