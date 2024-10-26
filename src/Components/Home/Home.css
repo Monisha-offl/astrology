@@ -250,10 +250,11 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    justify-items: center;
     gap: 30px;
 }
 .stage-award1{
-    width: 250px;
+    width: 80%;
     height: 330px;
     background-color: var(--bg-grey);
     padding: 20px 0;
@@ -344,27 +345,32 @@
 }
 
 .leading-wholediv{
-    width: 80%;
-    height: 100%;
+    width: 100%;
+    height: 60vh;
     margin: 0 auto;
     display: flex;
     gap: 30px;
+    padding: 0 8%;
     position: relative;
 }
-.leading-content{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 40px;
-    position: relative;
-}
-.moon-position{
+.cloud-img{
     position: absolute;
-    right: -90px;
-    top: 70px;
-    width: 12%;
-    height: 130px;
+    right: 8%;
+    top: -5%;
+    z-index: -20;
+}
+.moon-img{
+    position: absolute;
+    height: 100px;
+    top: 0;
+    right: 15%;
+    animation: blink 5s infinite;
+    opacity: .8;
+}
+.orange-img{
+    position: absolute;
+    width: 150px;
+    right: 5%;
     animation: rotateNormal 15s infinite ease-in-out;
 }
 @keyframes rotateNormal {
@@ -378,16 +384,22 @@
         transform: rotate(0deg) translateX(0px); 
     }
 }
+.star-img{
+    position: absolute;
+    top: -5%;
+    right: 8%;
+}
+.leading-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+
 .moon-position img{
     height: 100%;
     width: 100%;
-}
-.blackmoon-position{
-    width: 7%;
-    height: 21%;
-    position: absolute;
-    right: 30px;
-    animation: blink 5s infinite;
 }
 @keyframes blink {
     0%, 100% {
@@ -420,38 +432,33 @@
     width: 100%;
     height: 100%;
 }
+.star{
+    font-size: 25px;
+    color: #AA9582;
+}
 .sparkle-icon{
-    font-size: 20px;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 5%;
     animation: blink 4s infinite;
 }
 .leading-container{
     width: 50%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.leading-img{
+.leading-cloud-img{
     width: 100%;
     height: 400px;
-    position: absolute;
-    top: 50px;
-    border-radius: 20px;
-    left: 700px;
-}
-.leading-img img{
-    width: 38%;
-    height: 75%;
     border-radius: 20px;
 }
-.cloud-img{
-    width: 100%;
-    height: 400px;
-    position: relative;
-}
-.cloud-img img{
-    width: 100%;
-    height: 100%;
+.leading-img-2{
+    width: 90%;
+    height: 85%;
+    border-radius: 20px;
+
 }
 .about-leading h1{
     color: var(--border-color);
@@ -517,17 +524,10 @@
 }
 .best-astro{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: var(--pink-bg);
     display: flex;
-    gap: 30px;
-}
-.diamond {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: 300px;
-    animation: slide-in 2s ease-out forwards, rotate 13s linear infinite 2s;
+    gap: 60px;
 }
 .diamond img{
     width: 100%;
@@ -572,7 +572,7 @@
     justify-content: center;
 }
 .bg-image{
-    width: 100vw;
+    width: 100%;
     height: 500px;
 }
 .bg-image img{
@@ -581,20 +581,24 @@
 }
 .best-img{
     width: 50%;
-    height: 650px;
-    margin: 88px 0 0 90px;
-    position: relative;
-}
-.best-img img{
-    width: 100%;
     height: 100%;
+    position: relative;
+    background-image: url(../../Assets/images/cloth.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.diamand-img{
+    position: absolute;
+    left: 0;
+    bottom: 17%;
+    animation: slide-in 2s ease-out forwards, rotate 13s linear infinite 2s;
 }
 .best1-img{
     width: 350px;
     height: 380px;
-    position: absolute;
-    top: 130px;
-    right: 100px;
 }
 .best1-img img{
     width: 100%;

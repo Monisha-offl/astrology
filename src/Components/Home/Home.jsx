@@ -158,6 +158,7 @@ const Home = () => {
         </div>
         <div className='about-leading animate__animated animate__zoomIn'>
             <div className='leading-wholediv'>
+                <img className='cloud-img' src={cloud} alt="" />
                 <div className='leading-content'>
                     <h1>Dr. Sohini Sastri</h1>
                     <p>Dr Sohini Sastri Is One Of The Best Astrologer In India. Dr. Sastri, stands distinguished, nominated among India’s Top 5 Astrologers by various internet polls and leading digital media platforms. Benefit from her Vedic astrological insights to correct your future’s course and illuminate your path forward with the guidance of the best in astrology. Dr. Sohini Sastri’s expertise shines brightly, offering unparalleled wisdom and foresight to those seeking direction in life’s journey.</p>
@@ -169,23 +170,12 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='leading-container'>
-                    <div className='cloud-img'>
-                        <img src={cloud} alt="" />
-                        </div>
-                        <div className='leading-img'>
-                        <img src={leadingimg} alt="" />
-                    </div>
-                    </div>
-                    <div className='moon-position'>
-                         <img src={orange} alt="" />
-                    </div>
-                    <div className='blackmoon-position'>
-                        <img src={blackmoon} alt="" />
-                    </div>
-                    <div className='stars'>
-                        <img src={star} alt="" />
-                    </div>
-                    <p className='sparkle-icon'><BsStars /></p>
+                    <img className='leading-img-2' src={leadingimg} alt="" />
+                    <img className='orange-img' src={orange} alt="" />
+                    <img className='moon-img' src={blackmoon} alt="" />
+                    <img className='star-img' src={star} alt="" /> 
+                </div>
+                <p className='sparkle-icon'><BsStars className='star'/></p>
             </div>
         </div>
         <div className='queries'>
@@ -203,13 +193,10 @@ const Home = () => {
         </div>
         <div className='best-astro animate__animated animate__pulse'>
             <div className='best-img'>
-                <img src={cloth} alt="" />
                 <div className='best1-img'>
                    <img src={best1} alt="" />
-                </div> 
-                <div className='diamond'>
-                    <img src={diamond} alt="" />
-                    </div>  
+                </div>
+                <img className='diamand-img' src={diamond} alt="" /> 
             </div>
             <div className='best-content'>
                 <div className='bestcontent-font'>
