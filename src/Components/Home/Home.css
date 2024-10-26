@@ -257,10 +257,12 @@
     width: 80%;
     height: 330px;
     background-color: var(--bg-grey);
-    padding: 20px 0;
     border-radius: 15px;
     border: dotted 1px var(--font-color);
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .stage-award1:hover {
     transform: scale(107%);
@@ -284,7 +286,7 @@
 .stage-img1{
     width: 80%;
     margin: 0 auto;
-    height: 200px;
+    height: 60%;
     border-radius: 15px;
 }
 .stage-img1 img{
