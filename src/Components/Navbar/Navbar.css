@@ -150,4 +150,7 @@
         display: block;
         cursor: pointer;
     }
+    .btn-div{
+        flex-direction: column;
+    }
 }

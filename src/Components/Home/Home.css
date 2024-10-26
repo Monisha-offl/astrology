@@ -106,8 +106,8 @@
     width: 300px;
     height: 300px;
     position: absolute;
-    bottom: 70px;
-    right: 95px;
+    bottom: 5%;
+    right: 5%;
     animation: slide-in 2s ease-out forwards, rotate 13s linear infinite 2s;
 }
 @keyframes slide-in {
@@ -392,6 +392,8 @@
     position: absolute;
     top: -5%;
     right: 8%;
+    animation: blink2 5s infinite;
+
 }
 .leading-content{
     width: 50%;
@@ -401,10 +403,6 @@
     margin-top: 40px;
 }
 
-.moon-position img{
-    height: 100%;
-    width: 100%;
-}
 @keyframes blink {
     0%, 100% {
         opacity: 1; 
@@ -417,13 +415,7 @@
     width: 100%;
     height: 100%;
 }
-.stars{
-    width: 20%;
-    height: 35%;
-    position: absolute;
-    right: 10px;
-    animation: blink2 5s infinite;
-}
+
 @keyframes blink2 {
     0%, 100% {
         opacity: 0; 
@@ -431,10 +423,6 @@
     50% {
         opacity: 1; 
     }
-}
-.stars img{
-    width: 100%;
-    height: 100%;
 }
 .star{
     font-size: 25px;
@@ -528,7 +516,7 @@
 }
 .best-astro{
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background-color: var(--pink-bg);
     display: flex;
     gap: 60px;
@@ -614,7 +602,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 80px 0;
+    justify-content: center;
+    /* align-items: center; */
 }
 .bestcontent-font{
     width: 60%;
@@ -713,11 +702,11 @@
         width: 180px;
         height: 180px;
         position: absolute;
-        bottom: 175px;
-        right: 2px;
+        bottom: 27%;
+        right: 0;
     }
     .profile-img{
-        height: 525px;
+        height: 500px;
     }
     .profile-img img{
         width: 100%;
@@ -746,7 +735,7 @@
     }
     .why-best{
         margin: 35px auto;
-        width: 90%;
+        width: 85%;
     }
     .why-best h1{
         font-size: 39px;
@@ -760,14 +749,38 @@
     .position-div{
         height: 100%;
     }
+    .reviews{
+        width: 100%;
+    }
+    .reviews h5{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .reviews h6{
+        margin-top: 0;
+    }
+    .review-rating{
+        margin-top: 5px;
+    }
     .stage-awards-bg{
         height: 100%;
+        padding: 0;
     }
     .stage-award1{
         width: 80%;
     }
+    .services1-h h1{
+        font-size: 25px;
+    }
     .leading-wholediv{
         flex-direction: column-reverse;
+        height: 95vh;
+    }
+    .leading-content{
+        margin-top: 0;
+    }
+    .leading-btn{
+        flex-direction: column;
     }
     .cloud-img {
         width: 100%;
@@ -795,16 +808,22 @@
     .leading-content{
         width: 100%;
     }
-    .blackmoon-position{
-        width: 17%;
-        height: 9%;
-        top: 0;
-        right: 55px;
+    .orange-img{
+        width: 85px;
     }
     .stars{
         width: 54%;
         height: 23%;
         top: 10px;
+    }
+    .moon-img{
+        height: 75px;
+        width: 70px;
+        right: 22%;
+    }
+    .star-img{
+        top: -3%;
+    
     }
     .bg-image{
         height: 280px;
@@ -815,7 +834,7 @@
     .queries-content{
         gap: 23px;
         justify-content: start;
-        height: 195px;
+        height: 60%;
     }
     .queries-content h1{
         font-size: 17px;
@@ -825,19 +844,24 @@
     }
     .best-astro{
         flex-direction: column;
+        gap: 0;
+        height: 160vh;
     }
     .best-img{
-        width: 90%;
-        height: 515px;
-        margin: 55px 0 0 25px;
+        width: 100%;
+        height: 65%;
+        
     }
     .best1-img{
         top: 65px;
-        right: -5px
+        right: -5px;
+        width: 300px;
+        height: 325px;
     }
-    .diamond{
-        top: 120px;
-        left: -50px;
+    .diamand-img{
+        width: 200px;
+        bottom: 43%;
+        left: -10%;
     }
     .best-content{
         width: 85%;
@@ -856,6 +880,9 @@
         flex-direction: column;
         gap: 50px
     }
-    
+    .expect1{
+        width: 90%;
+        margin: 0 auto;
+    }
     
 }
