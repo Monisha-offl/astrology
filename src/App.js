@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Routing from './Routing/Routing';
+import Aboutpage from './Pages/Aboutpage';
 
 function App() {
   return (
