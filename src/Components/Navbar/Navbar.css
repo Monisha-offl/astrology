@@ -148,6 +148,9 @@
     .navbar{
         height: 100px;
     }
+    .icon1 p{
+        top: 38px;
+    }
     .nav-list{
         display: none;
     }

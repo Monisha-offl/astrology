@@ -36,7 +36,7 @@ const Home = () => {
   return (
     <>
      <div className='home'>
-        <div className='home-div'>
+        <section className='home-div'>
             <div className='intro'>
                 <h1 >The most trusted name in the field of Astrology in India</h1>
                 <p>Unlock the wisdom of the stars and gain deeper insights into your life's path.  With a blend of traditional techniques and modern insights, I offer personalized astrological consultations designed to bring alignment and balance into your life. Let the cosmos illuminate your way!</p>
@@ -57,8 +57,8 @@ const Home = () => {
                     <img src={chakra} alt="" className='chakra' />
                 </div>
             </div>  
-        </div>
-        {/* <div className='highlights-container'>
+        </section>
+        <section className='highlights-container'>
             <div className='highlights'>
                     <p>Top rated astro palmist</p>
                     <p>Two times president’s award winner</p>
@@ -67,17 +67,17 @@ const Home = () => {
                     <p>The best astrologer in India</p>
                     <p>Vedic Astrologer</p> 
             </div>
-        </div>
-        <div className='award-div'>
+        </section>
+        <section className='award-div'>
             <img src={award1} alt="" />
             <img src={award2} alt="" />
             <img src={award3} alt="" />
-        </div>
+        </section>
 
         <Credentials/>
         <Services />
 
-        <div className='why-best animate__animated animate__slideInUp'>
+        <section className='why-best animate__animated animate__slideInUp'>
             <h1>Why Dr. Sohini Sastri</h1>
             <h3>Because she is the best Astrologer in India</h3>
             <div className='arrow-img'>
@@ -92,9 +92,8 @@ const Home = () => {
                         Book Appointment</button>
                     </div>
             </div>
-        </div>    
-        {/* {/* <div className='position-div'> */}
-            <div className='stage-awards-bg'>
+        </section>    
+            <section className='stage-awards-bg'>
                     <div className='stage-awards'>
                         <div className='stage-award1'>
                             <div className='stage-img1'>
@@ -137,24 +136,23 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-            </div>
-        {/* </div>  */}
-        <div className='reviews animate__animated animate__flipInX'>
-            <div className='review-img'>
-                <img src={eye} alt="" />
-            </div>
-            <h4>Some of our Best <span>Google </span>Reviews</h4>
-            <h5>Sohini Sastri Madam is God for me. Her prediction and remedies are too good. After taking remedies I got a job within 3 months. She is the Best Astrologer in India I must say.</h5>
-            <h6>Abhishek Chakraborty</h6>
-            <div className='review-rating'>
-                <p><GiTwirlyFlower /></p>
-                <p><GiTwirlyFlower /></p>
-                <p><GiTwirlyFlower /></p>
-                <p><GiTwirlyFlower /></p>
-                <p><GiTwirlyFlower /></p>
-            </div>
-        </div>
-        <div className='about-leading animate__animated animate__zoomIn'>
+            </section>
+            <section className='reviews animate__animated animate__flipInX'>
+                <div className='review-img'>
+                    <img src={eye} alt="" />
+                </div>
+                <h4>Some of our Best <span>Google </span>Reviews</h4>
+                <h5>Sohini Sastri Madam is God for me. Her prediction and remedies are too good. After taking remedies I got a job within 3 months. She is the Best Astrologer in India I must say.</h5>
+                <h6>Abhishek Chakraborty</h6>
+                <div className='review-rating'>
+                    <p><GiTwirlyFlower /></p>
+                    <p><GiTwirlyFlower /></p>
+                    <p><GiTwirlyFlower /></p>
+                    <p><GiTwirlyFlower /></p>
+                    <p><GiTwirlyFlower /></p>
+                </div>
+        </section>
+        <section className='about-leading animate__animated animate__zoomIn'>
             <div className='leading-wholediv'>
                 <img className='cloud-img' src={cloud} alt="" />
                 <div className='leading-content'>
@@ -175,8 +173,8 @@ const Home = () => {
                 </div>
                 <p className='sparkle-icon'><BsStars className='star'/></p>
             </div>
-        </div>
-        <div className='queries'>
+        </section>
+        <section className='queries'>
             <div className='bg-image'>
                 <img src={bgimage} alt="" />
             </div>
@@ -188,8 +186,8 @@ const Home = () => {
                     Book an appoinment
                 </button>
             </div>
-        </div>
-        <div className='best-astro animate__animated animate__pulse'>
+        </section>
+        <section className='best-astro animate__animated animate__pulse'>
             <div className='best-img'>
                 <div className='best1-img'>
                    <img src={best1} alt="" />
@@ -205,8 +203,8 @@ const Home = () => {
                 </div>
                 
             </div>
-        </div>
-        <div className='simple-abt animate__animated animate__zoomIn'>
+        </section>
+        <section className='simple-abt animate__animated animate__zoomIn'>
             <h1>Twice President Award-winning Astrologer In India</h1>
             <p>Dr. Sohini Sastri has established herself as a leading figure in the field of astrology and divine science. Her deep understanding of astrology, combined with her spiritual insights, has propelled her to significant heights. Over the years, she has been recognized with numerous prestigious awards, affirming her status as one of the most respected and trusted astrologers in India. Her journey is marked by dedication, accuracy in predictions, and a compassionate approach to guiding people through life’s challenges.</p>
             <div className='highlight-para'>
@@ -217,8 +215,8 @@ const Home = () => {
             <div className='arrow-img'>
                 <img src={arrow2} alt="" />
             </div>
-        </div>
-        <div className='expect'>
+        </section>
+        <section className='expect'>
             <h3>Here’s what you can expect</h3>
             <div className='expect-flex'>
                 <div className='expect1'>
@@ -240,8 +238,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+        </section>
         </div>
-     </div> 
     </>
   )
 }
