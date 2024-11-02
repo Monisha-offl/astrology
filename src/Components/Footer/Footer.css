@@ -77,7 +77,6 @@
 }
 .touch-icon p{
     color: var(--black-color);
-
 }
 .specialities{
     display: flex;
@@ -114,12 +113,16 @@
     align-items: center;
     gap: 20px;
     font-size: 23px;
-    
 }
 .footer-icons p{
     color: var(--dark-pink);
+    cursor: pointer;
 }
 
+@media (max-width:1200px) {
+
+    
+}
 
 @media (max-width:600px) {
     .top-footer img{
@@ -146,6 +149,9 @@
     }
     .important{
         width: 85%;
+    }
+    .touch-icon p{
+        text-align: start;
     }
     .end-footer{
         flex-direction: column;

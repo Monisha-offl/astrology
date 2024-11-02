@@ -74,6 +74,11 @@
     transition: 0.5s;
 }
 
+@media (max-width:1200px) {
+
+    
+}
+
 @media (max-width:600px) {
     .services-cart{
         width: 90%;
