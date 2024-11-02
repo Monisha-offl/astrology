@@ -90,6 +90,9 @@
     flex-direction: column;
     gap: 20px;
 }
+.important h5{
+    text-align: start;
+}
 .end-footer{
     width: 85%;
     height: 100%;
@@ -150,9 +153,7 @@
     .important{
         width: 85%;
     }
-    .touch-icon p{
-        text-align: start;
-    }
+     
     .end-footer{
         flex-direction: column;
         gap: 40px;
