@@ -11,11 +11,11 @@
     gap: 20px;
 }
 .intro{
-    width: 50%;
+    width: 55%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 25px;
     margin: 20px 0 0 30px ;
 }
 .intro p{
@@ -82,32 +82,29 @@
     transition: 0.5s;
 }
 .position-img{
-    width: 50%;
-    height: 100%
+    width: 45%;
+    height: 100%;
 }
 .profile-img{
-    width: 100%;
-    height: 545px;
+    width: 75%;
+    height: 510px;
     display: flex;
-    /* justify-content: center; */
-    align-items: center;
+    justify-content: start;
+    align-items: start;
     position: relative;
-    background-color: aqua;
-    
 }
 .profile-img img{
-    width: 71%;
+    width: 100%; 
     height: 100%;
     position: absolute;
     right: 0;
 }
-
 .chakra{
-    width: 300px !important;
-    height: 300px !important;
+    width: 250px !important;
+    height: 250px !important;
     position: absolute !important;
-    bottom: 240px !important;
-    right: 50px !important;
+    bottom: 4% !important;
+    right: -35% !important;
     animation: slide-in 2s ease-out forwards, rotate 13s linear infinite 2s !important;
 }
 @keyframes slide-in {
@@ -232,6 +229,7 @@
 }
 .para-service button{
     margin-top: 30px;
+    cursor: pointer;
 }
 .book-btn{
     cursor: pointer;
@@ -253,12 +251,10 @@
     gap: 30px;
 }
 .stage-award1{
-    width: 80%;
-
+    width: 90%;
     height: 330px;
     background-color: var(--bg-grey);
     border-radius: 15px;
-    
     border: dotted 1px var(--font-color);
     cursor: pointer;
     display: flex;
@@ -390,6 +386,7 @@
 .star-img{
     position: absolute;
     top: -5%;
+    animation: blink 3s infinite;
     right: 8%;
 }
 .leading-content{
@@ -399,7 +396,6 @@
     gap: 20px;
     margin-top: 40px;
 }
-
 .moon-position img{
     height: 100%;
     width: 100%;
@@ -479,6 +475,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .leading-btn{
     display: flex;
@@ -525,17 +522,6 @@
     background-color: var(--hover-color);
     transition: 0.5s;
 }
-.best-astro{
-    width: 100%;
-    height: 100vh;
-    background-color: var(--pink-bg);
-    display: flex;
-    gap: 60px;
-}
-.diamond img{
-    width: 100%;
-    height: 100%;
-}
 .queries{
     width: 100%;
     height: 500px;
@@ -559,6 +545,7 @@
     height: 45px;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     gap: 3px;
     font-size: 16px;
     background-color: var(--white-font);
@@ -582,21 +569,30 @@
     width: 100%;
     height: 100%;
 }
+.best-astro{
+    width: 100%;
+    height: 120vh;
+    background-color: var(--pink-bg);
+    display: flex;
+    gap: 60px;
+}
 .best-img{
     width: 50%;
     height: 100%;
-    position: relative;
     background-image: url(../../Assets/images/cloth.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
-.diamand-img{
+.diamand-img{ 
     position: absolute;
     left: 0;
-    bottom: 17%;
+    bottom: 29%;
+    width: 230px;
+    height: 230px;
     animation: slide-in 2s ease-out forwards, rotate 13s linear infinite 2s;
 }
 .best1-img{
@@ -679,8 +675,8 @@
 }
 .expect1{
     background-color: var(--white-font);
-    width: 350px;
-    height: 92%;
+    width: 30%;
+    height: 100%;
     padding-top: 10px;
     border-radius: 20px;
 }
@@ -692,7 +688,7 @@
 }
 .expect-img{
     width: 100%;
-    height: 200px;
+    height: 100%;
     display: flex;
     justify-content: end;
     align-items: end;
@@ -704,36 +700,46 @@
 }
 
 
+@media (max-width:1200px) {
+
+    
+}
+
+
 @media (max-width: 600px){
     .home-div{
         flex-direction: column-reverse;
     }
-    .chakra img{
-        width: 180px;
-        height: 180px;
+    .chakra{
+        width: 180px !important;
+        height: 180px !important;
         position: absolute;
-        bottom: 175px;
-        right: 2px;
+        right: -10% !important;
     }
     .profile-img{
-        height: 525px;
+        height: 395px;
+        width: 90%;
+        margin: 0 auto;
     }
     .profile-img img{
         width: 100%;
+        height: 100%;
     }
     .position-img{
         width: 100%;
-        margin-top: 30px;
+        margin: 30px auto 0 auto;
     }
     .intro{
         width: 90%;
+        margin: 0 auto;
     }
     .intro h1{
-        font-size: 44px;
+        font-size: 36px;
         margin-top: 0;
     }
     .btn-div{
         gap: 24px;
+        flex-direction: column;
     }
     .highlights-container {
         margin: 30px 0;
@@ -759,14 +765,31 @@
     .position-div{
         height: 100%;
     }
+    .para-service button{
+        margin-top: 0;
+       cursor: pointer;
+    }
     .stage-awards-bg{
         height: 100%;
+        margin-top: 0;
     }
     .stage-award1{
         width: 80%;
     }
+    .reviews h4{
+        text-align: center;
+    }
+    .reviews h5{
+        width: 85%;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .review-rating{
+        margin-top: 10px;
+    }
     .leading-wholediv{
         flex-direction: column-reverse;
+        height: 100%;
     }
     .cloud-img {
         width: 100%;
@@ -783,22 +806,24 @@
         width: 100%;
         height: 67%;
     }
-    .moon-position{
-        right: -43px;
-        width: 30%;
-        height: 108px;
-    }
     .sparkle-icon{
         top: 25px;
     }
     .leading-content{
         width: 100%;
+        margin-top: 0;
     }
-    .blackmoon-position{
-        width: 17%;
-        height: 9%;
-        top: 0;
-        right: 55px;
+    .leading-btn{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .orange-img{
+        width: 80px;
+    }
+    .moon-img{
+        height: 60px;
+        top: -4%;
+        right: 20%;
     }
     .stars{
         width: 54%;
@@ -806,15 +831,17 @@
         top: 10px;
     }
     .bg-image{
-        height: 280px;
+        height: 265px;
     }
     .queries{
-        height: 280px;
+        height: 100%
     }
     .queries-content{
         gap: 23px;
         justify-content: start;
         height: 195px;
+        width: 80%;
+        margin-left: 15px;
     }
     .queries-content h1{
         font-size: 17px;
@@ -824,19 +851,22 @@
     }
     .best-astro{
         flex-direction: column;
+        gap: 20px;
+        height: 100%;
     }
     .best-img{
-        width: 90%;
-        height: 515px;
-        margin: 55px 0 0 25px;
+        width: 100%;
+        height: 465px;
     }
     .best1-img{
-        top: 65px;
-        right: -5px
+        width: 255px;
+       height: 270px;
     }
-    .diamond{
-        top: 120px;
-        left: -50px;
+    .diamand-img{
+        width: 170px;
+        height: 170px;
+        bottom: 35%;
+        left: -4%;
     }
     .best-content{
         width: 85%;
@@ -855,6 +885,8 @@
         flex-direction: column;
         gap: 50px
     }
-    
+    .expect1{
+        width: 100%;
+    }
     
 }

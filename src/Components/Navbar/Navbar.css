@@ -3,7 +3,7 @@
     background-color: var(--pink-bg);
 }
 .navbar{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     height: 110px;
     display: flex;
@@ -17,7 +17,6 @@
 }
 .nav-logo{
     width: 12%;
-    height: 86%;
     display: flex;
     align-items: center;
 }
@@ -139,19 +138,25 @@
 .dropdown-content h5{
     cursor: pointer;
 }
+
+@media (max-width:1200px) {
+
+    
+}
+
 @media (max-width:600px) {
+    .navbar{
+        height: 100px;
+    }
     .nav-list{
         display: none;
     }
     .nav-logo{
-        width: 34%;
-        height: 80%;
+        width: 33%;
+        height: 72%;
     }
     .menu-icon{
         display: block;
         cursor: pointer;
-    }
-    .btn-div{
-        flex-direction: column;
     }
 }

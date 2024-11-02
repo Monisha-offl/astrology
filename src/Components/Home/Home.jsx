@@ -55,7 +55,6 @@ const Home = () => {
                 <div className='profile-img'>
                     <img src={profile} alt="" />
                     <img src={chakra} alt="" className='chakra' />
-
                 </div>
             </div>  
         </div>
@@ -195,7 +194,7 @@ const Home = () => {
                 <div className='best1-img'>
                    <img src={best1} alt="" />
                 </div>
-                <img className='diamand-img' src={diamond} alt="" /> 
+                <img className='diamand-img' src={diamond} alt="" />
             </div>
             <div className='best-content'>
                 <div className='bestcontent-font'>
