@@ -107,7 +107,8 @@
     align-items: center;
     border-radius: 10px;
     position: absolute;
-    top: 100px;
+    bottom: -25%;
+    right: 10%;
 }
 .dropdown-content {
     display: none;
@@ -157,11 +158,5 @@
     .menu-icon{
         display: block;
         cursor: pointer;
-    }
-    .phn-number{
-        top: 90px;
-    }
-    .icon1 p{
-        top: 38px;
     }
 }

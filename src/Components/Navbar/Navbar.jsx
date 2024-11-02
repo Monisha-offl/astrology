@@ -9,11 +9,11 @@ import { MdMenuOpen } from "react-icons/md";
 
 const Navbar = () => {
 
-  const [number, setnumber] = useState(false)
+  // const [number, setnumber] = useState(false)
 
-  const getnumber = () => {
-    setnumber(!number)
-  }
+  // const getnumber = () => {
+  //   setnumber(!number)
+  // }
 
   return (
     <>
@@ -63,15 +63,15 @@ const Navbar = () => {
           </div>
           <div className='nav-icons'>
             <p className='menu-icon'> <MdMenuOpen /></p>
-            <div className='icon1' onClick={getnumber}>
+            <div className='icon1'>
               <img src={circle} alt="" />
               <p><IoMdCall /></p>
             </div>
-            { number && 
+            {/* { number && 
               <div className='phn-number'>
               <p>Call:  9163 532 538</p>
             </div>
-            }
+            } */}
           </div>
         </div>
       </div>
