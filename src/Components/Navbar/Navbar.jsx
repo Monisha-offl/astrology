@@ -20,8 +20,10 @@ const Navbar = () => {
       <div className="nav">
         <div className="navbar">
           <div className="nav-logo">
-            <img src={logo} alt="" />
+            <img src={logo} alt=""/>
           </div>
+          <input type="checkbox" id="menu-toggle"></input>
+          <label for="menu-toggle" class="menu-icon"><MdMenuOpen /></label>
           <div className="nav-list">
             <div className="nav-h">
               <Link to='/'>
