@@ -11,6 +11,11 @@
     align-items: center;
     justify-content: space-between;
 }
+a{
+    text-decoration: none;
+    color: var(--black-color);
+    display: flex;
+}
 .home-i{
     border-bottom: solid 1px var(--border-color);
     padding-bottom: 3px;
@@ -108,7 +113,7 @@
     border-radius: 10px;
     position: absolute;
     bottom: -25%;
-    right: 10%;
+    right: -12%;
 }
 .dropdown-content {
     display: none;

@@ -32,7 +32,9 @@ import "animate.css"
 import diamond from "../../Assets/images/roll-diamond.png"
 import bgimage from "../../Assets/images/bg-image.png"
 
+
 const Home = () => {
+
   return (
     <>
      <div className='home'>
@@ -46,7 +48,7 @@ const Home = () => {
                         <button><p><BsSuitDiamondFill /></p>
                         Book Appointment</button>
                     </div>
-                    <div className='call'>
+                    <div className='call' >
                         <p>Call: 9163 532 538</p>
                     </div>
                 </div>
