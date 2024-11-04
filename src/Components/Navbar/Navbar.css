@@ -10,6 +10,16 @@
     gap: 20px;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+}
+.navbar .menu-icon {
+    font-size: 24px;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+.navbar input{
+    display: none;
 }
 a{
     text-decoration: none;
@@ -114,6 +124,7 @@ a{
     position: absolute;
     bottom: -25%;
     right: -12%;
+    z-index: 120;
 }
 .dropdown-content {
     display: none;
@@ -156,15 +167,33 @@ a{
     .icon1 p{
         top: 38px;
     }
-    .nav-list{
-        display: none;
-    }
     .nav-logo{
         width: 33%;
         height: 72%;
     }
-    .menu-icon{
+    /* .menu-icon{
         display: block;
         cursor: pointer;
+    } */
+    .menu-icon{
+        display: block;
+    }
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        padding: 10px 0;
+        top: 100%;
+        right: 0;
+        width: 40%;
+        height: 400px;
+        background-color: var(--pink-bg);
+        z-index: 100;
+    }
+    .navbar input{
+        display: block;
+    }
+    #menu-toggle:checked + .menu-icon + .nav-list {
+        display: flex;
     }
 }
