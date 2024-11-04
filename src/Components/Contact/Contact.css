@@ -155,10 +155,13 @@
     .contact-welcome-note h1{
         font-size: 60px;
         text-align: center;
+        width: 85%;
+        margin: 0 auto;
     }
     .contact-welcome-note h2{
         text-align: center;
         width: 85%;
+        margin: 0 auto;
     }
     .info-wholediv{
         flex-direction: column-reverse;
@@ -173,8 +176,7 @@
         border: none;
         grid-template-columns: repeat(2,1fr);
         padding: 0;
-        grid-row-gap: 25px;
-        grid-column-gap: 45px;
+        gap: 20px;
     }
     .map{
         height: 50vh;
