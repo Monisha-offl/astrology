@@ -20,19 +20,19 @@ const Contact = () => {
                     <h2>EMAIL</h2>
                     <p className='highlight-contact'>sohini.sastri@gmail.com</p>
                 </div>
-                <div className='c-info2'> 
+                <div className='c-info1'> 
                     <h2>PHONE</h2>
                     <p className='highlight-contact'>+91 903 813 6660</p>
                     <p className='highlight-contact'>+91 916 353 2538</p>
                 </div>
-                <div className='c-info3'>
+                <div className='c-info1'>
                     <h2>HEAD OFFICE</h2>
                     <p className='address'>The Golden Residency,
                         25A, S. P. Mukherjee Road,
                         2nd Floor, Bhawanipore,
                         Kolkata – 700025</p>
                 </div>
-                <div className='c-info4'>
+                <div className='c-info1'>
                     <h2>DELHI CHAMBER</h2>
                     <p className='address'>G – 1230, Basement,
                         Chittaranjan Park,
