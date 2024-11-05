@@ -372,22 +372,22 @@
     .aboutimg{
         left: 54%;
         top: 13%;
-        width: 255px;
-        height: 320px;
+        width: 235px;
+        height: 295px;
     }
     .archimage{
         top: 8%;
-        left: 11%;
-        width: 385px;
-        height: 350px;
+        left: 16%;
+        width: 340px;
+        height: 320px;
     }
     .starsparkle{
         top: 32%;
         left: 24%;
-        width: 365px;
+        width: 315px;
     }
     .aboutpage-image{
-        height: 60vh;
+        height: 50vh;
     }
     .about-inro-content{
         width: 85%;
@@ -459,15 +459,16 @@
         padding: 40px 0;
     }
     .celebritiespic1{
-        left: 10%;
-        width: 325px;
-        top: 3%;    
+        left: 15%;
+        width: 245px;
+        top: 3%; 
+        height: 30%;   
     }
     .problem-solver-wholediv{
         height: 100%;
     }
     .problem-solving-content1{
-        height: 75vh;
+        height: 66vh;
         justify-content: end;
     }
     .problem-solver-para{
@@ -475,12 +476,16 @@
         margin: 0 auto;
         padding: 20px 0;
     }
+    .pro-logo{
+        width: 220px;
+        height: 80px;
+    }
     .problem-solving-content2{
         padding: 0;
         height: 50%;
     }
     .problem-solver-logo{
-        height: 20%;
+        height: 19%;
         width: 70%;
     }
     .call-btn{

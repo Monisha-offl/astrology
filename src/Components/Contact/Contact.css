@@ -148,7 +148,7 @@
 
 }
 
-@media (max-width:1200px){
+@media (max-width:600px){
     .contact-welcome-note{
         height: 55vh;
     }
@@ -180,5 +180,14 @@
     }
     .map{
         height: 50vh;
+    }
+    .c-info1{
+        width: 100%;
+    }
+    .c-info1 h2{
+        font-size: 17px;
+    }
+    .c-info1 p{
+        font-size: 15px;
     }
 }
