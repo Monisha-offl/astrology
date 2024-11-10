@@ -42,8 +42,10 @@ const Navbar = () => {
 
             <div className="nav-h2">
               <div className='nav-h'>
-                <h4 className='service-drop'>Services</h4>
-                <p><GiFlatStar /></p>
+                <Link to='/services'>
+                  <h4 className='service-drop'>Services</h4>
+                  <p><GiFlatStar /></p>
+                </Link>
               </div>
               {/* <div class="dropdown-content">
                 <h5>Astrology</h5>
