@@ -49,6 +49,7 @@
 .awards-rcog-h h1{
     font-size: 30px;
     color: var(--border-color);
+    text-align: center;
 }
 .awards-rcog-h p{
     font-size: 17px;

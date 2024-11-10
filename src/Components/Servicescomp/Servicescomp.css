@@ -1,0 +1,351 @@
+.servicespage{
+    width: 100%;
+    height: 100%;
+}
+.services-intro{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 40px;
+}
+.services-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: end;
+}
+.services-wholediv{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.serviceslogo{
+    width: 300px;
+}
+.servicesintro{
+    width: 360px;
+    position: absolute;
+    right: 20%;
+}
+.sohini-quote{
+    width: 80%;
+    height: 100%;
+    border: solid 2px var(--about-bg);
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sohini-quote h5{
+    font-size: 18px;
+    font-weight: 400;
+}
+.sohini-quote p{
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--black-color);
+}
+.meditation{
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+    background-position: top;
+    background-image: url("../../Assets/images/meditationimg.png");
+}
+.meditation p{
+    height: 70%;
+    width: 80%;
+    margin: 0 auto;
+    color: var(--font-color);
+    display: flex;
+    align-items: end;
+}
+.servicesdiv-flex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+}
+.astrology{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.astrology-left{
+    width: 50%;
+    height: 100%;
+}
+.astrology-img{
+    width: 100%;
+    height: 100%;
+}
+.astrology-content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px;
+}
+.astrology-content h1{
+    color: var(--border-color);
+    font-size: 35px;
+}
+.astrology-content p{
+    text-align: start;
+    line-height: 32px;
+    color: var(--black-color);
+}
+.learnmore-button{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-font);
+    border: solid 2px var(--black-color);
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.learnmore-button:hover{
+    background-color: var(--about-bg);
+    transition: 0.5s;
+}
+.numerology{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.numerology-content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px 30px 10px 0;
+}
+.numerology-content h1{
+    color: var(--border-color);
+    font-size: 35px;
+}
+.numerology-content p{
+    text-align: start;
+    line-height: 27px;
+    color: var(--black-color);
+}
+.numerology-left{
+    width: 50%;
+    height: 100%;
+}
+.tantra{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.tantra-left{
+    width: 50%;
+    height: 100%;
+}
+.tantra-content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px 30px 10px 0;
+}
+.tantra h1{
+    color: var(--border-color);
+    font-size: 35px;
+}
+.tantra p{
+    text-align: start;
+    line-height: 32px;
+    color: var(--black-color);
+}
+.palmistry{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.palmistry-left{
+    width: 50%;
+    height: 100%;
+}
+.palmistry-content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 10px 20px;
+}
+.palmistry-content h1{
+    color: var(--border-color);
+    font-size: 35px;
+}
+.palmistry-content p{
+    text-align: start;
+    line-height: 27px;
+    color: var(--black-color);
+}
+.bestpresident-award{
+    width: 100%;
+    height: 100vh;
+    padding: 30px 10% ;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    background-color: var(--about-bg);
+    align-items: center;
+    justify-content: center;
+}
+.president-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.president-left p{
+    text-align: start;
+    color: var(--black-color);
+    line-height: 28px;
+}
+.president-left-h{
+    display: flex;
+    flex-direction: column;
+}
+.president-left-h h1{
+    color: var(--border-color);
+}
+.president-right{
+    width: 50%;
+    height: 100%;
+}
+.bestlogo{
+    width: 300px;
+}
+.bestcelebimg{
+    width: 400px;
+}
+.book-button{
+    width: 140px;
+    height: 60px;
+    border: solid 2px var(--black-color);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.book-button:hover{
+    background-color: var(--white-font);
+    transition: 0.5s;
+}
+
+@media (max-width:1200px) {
+    
+    
+}
+
+
+@media (max-width:600px) {
+    .services-intro{
+        width: 90%;
+        padding: 20px 0;
+    }
+    .serviceslogo{
+        width: 180px;
+    }
+    .servicesintro{
+        width: 140px;
+        right: 7%;
+    }
+    .services-left{
+        width: 100%;
+        align-items: start;
+    }
+    .sohini-quote{
+        width: 100%;
+    }
+    .meditation{
+        height: 50vh;
+    }
+    .meditation p{
+        height: 55%;
+    }
+    .servicesdiv-flex{
+        gap: 30px;
+    }
+    .astrology{
+        flex-direction: column;
+        width: 85%;
+    }
+    .astrology-left{
+        width: 100%;
+    }
+    .astrology-content{
+        width: 100%;
+        padding: 10px 0;
+    }
+    .numerology{
+        flex-direction: column-reverse;
+        width: 85%;
+    }
+    .numerology-content{
+        width: 100%;
+        padding: 10px 0;
+    }
+    .numerology-left{
+        width: 100%;
+    }
+    .palmistry{
+        flex-direction: column;
+        width: 85%;
+    }
+    .palmistry-content{
+        width: 100%;
+        padding: 10px 0;
+    }
+    .palmistry-left{
+        width: 100%;
+    }
+    .tantra{
+        width: 85%;
+        flex-direction: column-reverse;
+    }
+    .tantra-content{
+        width: 100%;
+        padding: 10px 0;
+    }
+    .tantra-left{
+        width: 100%;
+    }
+    .bestpresident-award{
+        flex-direction: column;
+        height: 100%;
+    }
+    .president-left{
+        width: 100%;
+    }
+    .president-right{
+        width: 100%;
+    }
+    .bestcelebimg{
+        width: 100%;
+    }
+}

@@ -13,7 +13,7 @@
     position: relative;
 }
 .menu-icon {
-    font-size: 38px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,7 +125,7 @@ a{
     right: -12%;
     z-index: 120;
 }
-.dropdown-content {
+/* .dropdown-content {
     display: none;
     visibility: hidden;
     position: absolute;
@@ -146,7 +146,7 @@ a{
 }
 .service-drop:hover .dropdown-content{
     display: block; 
-}
+} */
 .service-drop{
     position: relative;
 } 
@@ -173,7 +173,7 @@ a{
     .nav-list {
         flex-direction: column;
         position: absolute;
-        padding: 10px 0;
+        padding: 20px 0;
         top: 100%;
         right:-100%;
         width: 60%;
@@ -189,7 +189,7 @@ a{
         align-items: center;
         justify-content: space-between;
         transition: 1s;
-        padding: 10px 0;
+        padding: 20px 0;
         top: 100%;
         right:0%;
         width: 60%;
