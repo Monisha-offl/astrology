@@ -1,0 +1,132 @@
+.gallery{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.gallery-intro{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    background-position: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../Assets/images/gallerypageimg.png");
+}
+.gallery-h h1{
+    color: var(--white-font);
+    font-size: 100px;
+}
+.gallery-h{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue-color);
+}
+.awards-recognitions{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 40px 0;
+}
+.awards-rcog-h{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.awards-rcog-h h1{
+    font-size: 30px;
+    color: var(--border-color);
+}
+.awards-rcog-h p{
+    font-size: 17px;
+    color: var(--black-color);
+}
+.gallery-arrow{
+    width: 300px;
+}
+.awards-rcogimages{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    gap: 15px;
+    margin: 0 auto;
+}
+.regimg1{
+    width: 24%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.loadmore-btn{
+    width: 150px;
+    height: 60px;
+    border: solid 2px var(--black-color);
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: var(--white-font);
+    cursor: pointer;
+}
+.loadmore-btn:hover{
+    background-color: var(--about-bg);
+    transition: 0.5s;
+}
+.celeb-association{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 40px 0;
+    background: rgb(201,199,199);
+    background: linear-gradient(172deg, rgba(201,199,199,0.8547794117647058) 0%, rgba(240,255,233,0.19931722689075626) 75%);
+}
+.puja-bg{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 40px 0;
+    background-color: var(--puja-bg);
+}
+
+@media (max-width:1200px){
+
+    
+}
+
+@media (max-width:600px){
+    .gallery-intro{
+        height: 45vh;
+    }
+    .gallery-h h1{
+        font-size: 65px;
+    }
+    .awards-rcogimages{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .regimg1{
+        width: 100%;
+    }
+
+}

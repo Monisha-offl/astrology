@@ -10,11 +10,14 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
 
   const [number, setnumber] = useState(false)
+  const [close, setclose] = useState(false)
 
   const getnumber = () => {
     setnumber(!number)
   }
-
+  function changeslide(params) {
+  setclose(!close)
+}
   return (
     <>
       <div className="nav">
@@ -22,9 +25,7 @@ const Navbar = () => {
           <div className="nav-logo">
             <img src={logo} alt=""/>
           </div>
-          <input type="checkbox" id="menu-toggle"></input>
-          <label for="menu-toggle" class="menu-icon"><MdMenuOpen /></label>
-          <div className="nav-list">
+          <div className={close?"navlist1":"nav-list"}>
             <div className="nav-h">
               <Link to='/'>
                 <h4 className='home-i'>Home</h4>
@@ -54,8 +55,10 @@ const Navbar = () => {
           </div>
 
             <div className="nav-h">
+              <Link to='/gallery'>   
               <h4>Gallery</h4>
               <p><GiFlatStar /></p>
+              </Link>
           </div>
 
             <div className="nav-h">
@@ -71,7 +74,7 @@ const Navbar = () => {
           </div>
           </div>
           <div className='nav-icons'>
-            <p className='menu-icon'> <MdMenuOpen /></p>
+            <p className='menu-icon' onClick={changeslide}> <MdMenuOpen /></p>
             <div className='icon1' onClick={getnumber}>
               <img src={circle} alt="" />
               <p><IoMdCall /></p>
