@@ -7,8 +7,9 @@
     width: 100%;
     height: 70vh;
     background-image: url('../../Assets/images/blogintro.png');
-    object-fit: cover;
     background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .blog-welcomenote{
     width: 100%;
@@ -126,5 +127,13 @@
     .blog-entry3{
         width: 100%;
     }
-
+    .blogintro{
+        height: 45vh;
+    }
+    .blog-welcomenote h1{
+        font-size: 85px;
+    }
+    .blog-welcomenote p{
+        font-size: 25px;
+    }
 }

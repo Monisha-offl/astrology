@@ -6,8 +6,10 @@ const Contact = () => {
     <>
      <div className='contact'>
         <section className='contact-welcome-note'>
-            <h1>CONTACT US</h1>
-            <h2>Fill up the form below & Our team will call back soon</h2>
+            <div className='contact-bg'>
+                <h1>CONTACT US</h1>
+                <h2>Fill up the form below & Our team will call back soon</h2>
+            </div>
         </section>
         <section className='contact-info-details'>
             <div className='contact-navigate-head'>
