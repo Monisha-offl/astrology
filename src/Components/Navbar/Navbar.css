@@ -177,7 +177,7 @@ a{
         top: 100%;
         right:-100%;
         width: 60%;
-        height: 320px;
+        height: 340px;
         background-color: var(--pink-bg);
         z-index: 100;
         transition: 1s;
@@ -193,7 +193,7 @@ a{
         top: 100%;
         right:0%;
         width: 60%;
-        height: 320px;
+        height: 340px;
         background-color: var(--pink-bg);
         z-index: 100;
     }
@@ -204,3 +204,4 @@ a{
         display: block;
     }
 }
+

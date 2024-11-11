@@ -47,4 +47,6 @@ html{
   --blue-color: rgba(20, 20, 131, 0.5);
   --about-bg: #EDECEC;
   --puja-bg: #C1C1B5;
+  --blog-bg: rgba(248, 209, 34, 0.5);
+  --light-font: #747788;
 }
