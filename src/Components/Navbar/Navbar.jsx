@@ -64,8 +64,10 @@ const Navbar = () => {
           </div>
 
             <div className="nav-h">
-              <h4>Blog</h4>
-              <p><GiFlatStar /></p>
+              <Link to='/blog'>
+                <h4>Blog</h4>
+                <p><GiFlatStar /></p>
+              </Link>
           </div>
 
             <div className="nav-h">

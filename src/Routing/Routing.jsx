@@ -5,6 +5,7 @@ import Aboutpage from '../Pages/Aboutpage'
 import Contactpage from '../Pages/Contactpage'
 import Gallerypage from '../Pages/Gallerypage'
 import Servicespage from '../Pages/Servicespage'
+import Blogpage from '../Pages/Blogpage'
 
 const Routing = () => {
   return (
@@ -16,6 +17,7 @@ const Routing = () => {
         <Route path="/contact" element={<Contactpage />}/>
         <Route path="/gallery" element={<Gallerypage/>}/>
         <Route path='/services' element={<Servicespage />}/>
+        <Route path='/blog' element={<Blogpage />}/>
     </Routes>
     </BrowserRouter>
     </>

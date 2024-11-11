@@ -9,6 +9,7 @@
     margin: 0 auto;
     gap: 20px;
     padding: 40px;
+    position: relative;
 }
 .services-left{
     width: 50%;
@@ -21,7 +22,6 @@
 .services-wholediv{
     width: 100%;
     height: 100%;
-    position: relative;
 }
 .serviceslogo{
     width: 300px;
@@ -29,7 +29,7 @@
 .servicesintro{
     width: 360px;
     position: absolute;
-    right: 20%;
+    right: 10%;
 }
 .sohini-quote{
     width: 80%;
@@ -54,16 +54,19 @@
 .meditation{
     width: 100%;
     height: 100vh;
-    object-fit: contain;
-    background-position: top;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url("../../Assets/images/meditationimg.png");
+
 }
 .meditation p{
-    height: 70%;
+    height: 45%;
     width: 80%;
     margin: 0 auto;
     color: var(--font-color);
     display: flex;
+    font-size: 18px;
     align-items: end;
 }
 .servicesdiv-flex{
@@ -283,10 +286,12 @@
         width: 100%;
     }
     .meditation{
-        height: 50vh;
+        height: 30vh;
+        background-color: red;
+        object-fit: contain;
     }
     .meditation p{
-        height: 55%;
+        height: 35%;
     }
     .servicesdiv-flex{
         gap: 30px;
