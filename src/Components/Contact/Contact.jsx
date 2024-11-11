@@ -58,13 +58,10 @@ const Contact = () => {
             
         </section>
         <section className='map'>
-        <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24174.062026044385!2d-74.0060!3d40.7128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a316c62365b%3A0x36e8a2de4ec6a2de!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sus!4v1601745330439!5m2!1sen!2sus"
-        width="100%"
-        height="100%"
-        style={{ border: 0 }}
-        >
-        </iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7371.306734195414!2d88.345629!3d22.517185000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027735f24df659%3A0x933d4fccb54d8213!2sDr.%20Sohini%20Sastri%20-%20Best%20Astrologer%20In%20India!5e0!3m2!1sen!2sin!4v1731322334727!5m2!1sen!2sin" 
+        width="100%" 
+        height="100%" 
+        style={{"border":"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
      </div> 
     </>
