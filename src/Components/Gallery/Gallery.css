@@ -13,6 +13,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("../../Assets/images/gallerypageimg.png");
 }
 .gallery-h h1{
