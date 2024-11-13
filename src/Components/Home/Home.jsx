@@ -38,6 +38,7 @@ const Home = () => {
   return (
     <>
      <div className='home'>
+
         <section className='home-div'>
             <div className='intro'>
                 <h1 >The most trusted name in the field of Astrology in India</h1>

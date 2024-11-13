@@ -22,6 +22,7 @@
     display: none;
     margin-right: 10px;
 }
+
 /* .nav-icons input{
     display: none;
 } */
@@ -30,10 +31,29 @@ a{
     color: var(--black-color);
     display: flex;
 }
-.home-i{
-    border-bottom: solid 1px var(--border-color);
+ 
+.nav-h{
+    border-bottom: solid 1px transparent;
+    padding-bottom: 3px;
+    text-decoration: none;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: var(--black-color);
+    gap: 2px;
+}
+.active{
+    display: flex;
+    border-bottom: solid 1px var(--black-color);
     padding-bottom: 3px;
 }
+
+/* .home-i{
+    border-bottom: solid 1px var(--border-color);
+    padding-bottom: 3px;
+} */
 .nav-logo{
     width: 12%;
     display: flex;
