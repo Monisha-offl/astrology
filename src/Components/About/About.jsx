@@ -12,7 +12,7 @@ import meetbest from "../../Assets/images/meetbest.png"
 import design from '../../Assets/images/design.png'
 import yearlyawards from "../../Assets/images/yearlyawards.png"
 import prologo from "../../Assets/images/pro-logo.png"
-import celebritiespic1 from "../../Assets/images/celebritiespic1.png"
+import Swiperabout from "../../Components/Swiperabout/Swiperabout"
 
 const About = () => {
   return (
@@ -101,14 +101,44 @@ const About = () => {
           <img src={yearlyawards} alt="" className='yearlyawards-img' />
           <button className='view-btn'>VIEW ALL</button>
         </section>
-        <section className='problem-solver-wholediv'>
-          <img src={celebritiespic1} alt="" className='celebritiespic1'/>
-          <div className='problem-solving-content1'>
+
+  <div className='Aboutheader'>
+    <div className='aboutinner'>
+      <div className='ableft'>
+      </div>
+      <div className='abright'>
+        <img src={prologo} alt="" className='pro-logo'/>
+      </div>
+    </div>
+  </div>
+  <div className='Aboutheader1'>
+      <div className='aboutinner1'>
+        <div className='ableft123'>
+         <div className='ableft12'>
+         <Swiperabout/>
+        </div>
+      </div>
+      <div className='abright123'>
+        <h1>The Problem Solver</h1>
+        <p>Beyond astrological predictions, Dr. Sohini Sastri, the best astrologer in Mumbai, has facilitated miraculous transformations through spiritual interventions, effectively removing negative energies and providing profound relief to her clients. Her compassionate counseling sessions empower clients to navigate through life’s challenges with optimism and resilience.</p>
+        <h4>With a vast clientele spanning the nation, Dr. Sohini Sastri boasts an unparalleled satisfaction rate, with 99.99% of her clients returning for her trusted guidance. Renowned for her honesty and integrity, she has become the go-to astrologer for Bollywood celebrities and common individuals alike.</h4>
+        <button className='call-btn'>BOOK A CALL</button>        
+      </div>
+    </div>
+  </div>
+
+
+        {/* <section className='problem-solver-wholediv'>
+        <div className='ch'>
+        <div className='set'>
+        </div>
+         <div className='pp'>
+         <div className='problem-solving-content1'>
           <div className='problem-solver-logo'>
-            <img src={prologo} alt="" className='pro-logo'/>
           </div>
           </div>
           <div className='problem-solving-content2'>
+
             <div className='problem-solver-para'>
               <h1>The Problem Solver</h1>
               <p>Beyond astrological predictions, Dr. Sohini Sastri, the best astrologer in Mumbai, has facilitated miraculous transformations through spiritual interventions, effectively removing negative energies and providing profound relief to her clients. Her compassionate counseling sessions empower clients to navigate through life’s challenges with optimism and resilience.</p>
@@ -116,7 +146,9 @@ const About = () => {
               <button className='call-btn'>BOOK A CALL</button>
             </div>
           </div>
-        </section>
+         </div>
+        </div>
+        </section> */}
         </div> 
     </>
   )

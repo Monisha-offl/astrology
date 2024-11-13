@@ -280,60 +280,12 @@
     background-color: var(--white-font);
     transition: 0.5s;
 }
-.problem-solver-wholediv{
-    width: 100%;
-    height: 120vh;
-    position: relative;
-}
-.problem-solving-content1{
-    width: 100%;
-    height: 30%;
-    background-color: var(--white-font);
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: center;
-}
-.problem-solver-logo{
-    width: 58%;
-    height: 30%;
-    justify-content: center;
-    align-items: center;
-}
-.pro-logo{
-    width: 260px;
-    height: 100px;
-}
-.problem-solving-content2{
-    height: 70%;
-    width: 100%;
-    background-color: var(--about-bg);
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    padding-right: 10%;
-    /* justify-content: center; */
-}
-.problem-solver-para{
-    width: 50%;
+.ch{
+    width: 70%;
     height: 100%;
-    justify-content: center;
     display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-.problem-solver-para h1{
-    font-size: 32px;
-    color: var(--border-color);
-}
-.problem-solver-para p{
-    text-align: justify;
-    color: var(--black-color);
-    line-height: 27px;
-}
-.problem-solver-para h4{
-    text-align: justify;
-    line-height: 27px;
+    align-items: center;
+    justify-content: space-between;
 }
 .call-btn{
     width: 170px;
@@ -350,11 +302,92 @@
     background-color: var(--white-font);
     transition: 0.5s;
 }
-.celebritiespic1{
+.pro-logo{
+    width: 260px;
+    height: 100px;
+}
+.abright123 h1{
+    font-size: 35px;
+    color: var(--border-color);
+}
+.abright123 p{
+    text-align: justify;
+    color: var(--black-color);
+    line-height: 30px;
+    font-size: 16px;
+}
+.abright123 h4{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 16px;
+}
+.Aboutheader{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+}
+.aboutinner{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ableft{
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
+.abright{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items:cen;
+    justify-content:center;
+    flex-direction: column;
+    padding: 20px;
+}
+.Aboutheader1{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--about-bg);
+}
+.aboutinner1{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.ableft123{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+.ableft12{
+    width: 100%;
+    height: 100%;
+    display: flex;
     position: absolute;
-    top: 11%;
-    left: 10%;
-    width: 380px;
+    left: 0;
+    top: -150px;
+}
+.abright123{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px 0px 20px 50px;
+    gap: 20px;
 }
 
 @media (max-width:1200px){
@@ -464,29 +497,31 @@
         top: 3%; 
         height: 30%;   
     }
-    .problem-solver-wholediv{
-        height: 100%;
-    }
-    .problem-solving-content1{
-        height: 66vh;
-        justify-content: end;
-    }
-    .problem-solver-para{
-        width: 85%;
-        margin: 0 auto;
-        padding: 20px 0;
-    }
     .pro-logo{
         width: 220px;
         height: 80px;
     }
-    .problem-solving-content2{
-        padding: 0;
-        height: 50%;
+    .aboutinner1{
+        width: 85%;
     }
-    .problem-solver-logo{
-        height: 19%;
-        width: 70%;
+    /* .ableft123{
+        width: 0;
+    } */
+     .Aboutheader{
+        height: 585px;
+     }
+    .Aboutheader1{
+        height: 100%;
+    }
+    .ableft12{
+        top: -550px;
+        left: 18%;
+    }
+    .abright{
+        justify-content: end;
+    }
+    .abright123{
+        padding: 30px 0;
     }
     .call-btn{
         margin: 0 auto;

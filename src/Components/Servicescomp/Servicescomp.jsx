@@ -8,6 +8,7 @@ import numerologyimg from "../../Assets/images/numerologyimg.png"
 import palmistryimg from "../../Assets/images/palmistryimg.png"
 import tantraimg from "../../Assets/images/tantraimg.png"
 import bestlogo from "../../Assets/images/bestlogo.png"
+import Swiperabout from "../Swiperabout/Swiperabout"
 import bestcelebimg from "../../Assets/images/bestcelebimg.png"
 
 const Servicescomp = () => {
@@ -85,7 +86,8 @@ const Servicescomp = () => {
                 <button className='book-button'>BOOK A CALL</button>
             </div>
             <div className='president-right'>
-                <img src={bestcelebimg} alt="" className='bestcelebimg'/>
+                <Swiperabout />
+                {/* <img src={bestcelebimg} alt="" className='bestcelebimg'/> */}
             </div>
         </section>
         

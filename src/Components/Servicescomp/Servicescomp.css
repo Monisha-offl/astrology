@@ -236,7 +236,7 @@
     color: var(--border-color);
 }
 .president-right{
-    width: 50%;
+    width: 35%;
     height: 100%;
 }
 .bestlogo{
@@ -343,6 +343,8 @@
     .bestpresident-award{
         flex-direction: column;
         height: 100%;
+        gap: 40px;
+        padding: 30px 7.5% 0 7.5%;
     }
     .president-left{
         width: 100%;
