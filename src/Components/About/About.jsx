@@ -102,6 +102,35 @@ const About = () => {
           <button className='view-btn'>VIEW ALL</button>
         </section>
 
+  <div className='abttop12'>
+  <div className='Aboutheader12'>
+    <div className='aboutinner12'>
+      <div className='ableft12'>
+      </div>
+     
+    </div>
+  </div>
+  <div className='Aboutheader13'>
+      <div className='aboutinner13'>
+        <div className='ableft1234'>
+         <div className='ableft124'>
+         <Swiperabout/>
+        </div>
+      </div>
+      <div className='abright1234'>
+      <div className='abright12'>
+        <img src={prologo} alt="" className='pro-logo'/>
+      </div>
+        <h1>The Problem Solver</h1>
+        <p>Beyond astrological predictions, Dr. Sohini Sastri, the best astrologer in Mumbai, has facilitated miraculous transformations through spiritual interventions, effectively removing negative energies and providing profound relief to her clients. Her compassionate counseling sessions empower clients to navigate through life’s challenges with optimism and resilience.</p>
+        <h4>With a vast clientele spanning the nation, Dr. Sohini Sastri boasts an unparalleled satisfaction rate, with 99.99% of her clients returning for her trusted guidance. Renowned for her honesty and integrity, she has become the go-to astrologer for Bollywood celebrities and common individuals alike.</h4>
+        <button className='call-btn'>BOOK A CALL</button>        
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div className='abttop'>
   <div className='Aboutheader'>
     <div className='aboutinner'>
       <div className='ableft'>
@@ -126,8 +155,7 @@ const About = () => {
       </div>
     </div>
   </div>
-
-
+  </div>
         {/* <section className='problem-solver-wholediv'>
         <div className='ch'>
         <div className='set'>

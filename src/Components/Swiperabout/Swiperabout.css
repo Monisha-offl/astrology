@@ -1,7 +1,7 @@
 
 .aboutswiper{
     width: 100%;
-    height: 700px;
+    height: 550px;
 }
 .aboutswiper .swiper {
     width: 100%;
@@ -24,10 +24,11 @@
     
   }
 
+
   @media (max-width:600px){
     .aboutswiper{
       height: 410px;
-      width: 300px;
+      width: 75%;
     }
     .aboutswiper  .swiper-slide img{
       height: 100%;
