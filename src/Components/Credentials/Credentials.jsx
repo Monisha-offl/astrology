@@ -1,9 +1,6 @@
 import React from 'react'
 import "./Credentials.css"
-import disaward1 from "../../Assets/images/disaward1.png"
-import Swiperhome from "../../Components/Swiperhome/Swiperhome"
-
-
+import Homeswiper from "../../Components/Homeswiper/Homeswiper"
 const Credentials = () => {
   return (
     <>
@@ -12,7 +9,7 @@ const Credentials = () => {
             <p>Why Dr. Sohini Shastri is</p>
             <h3>The Best Astrologer in India</h3>
         </div>
-          <Swiperhome />                      
+        <Homeswiper/>
      </div> 
     </>
   )

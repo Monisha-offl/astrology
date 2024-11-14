@@ -18,10 +18,12 @@ import celebritiespic3 from "../../Assets/images/celebritiespic3.png"
 import celebritiespic4 from "../../Assets/images/celebritiespic4.png"
 
 
-export default function App() {
-  return (
-    <>
-    <div className='aboutswiper'>
+
+    
+    const Swiperabout = () => {
+      return (
+        <div>
+          <div className='aboutswiper'>
         <Swiper
             spaceBetween={30}
             effect={'fade'}
@@ -45,7 +47,11 @@ export default function App() {
             <img src={celebritiespic4} alt="" className='celebritiespic1'/>
             </SwiperSlide>
         </Swiper>
-    </div>    
-    </>
-  );
-}
+    </div>
+        </div>
+      )
+    }
+    
+    export default Swiperabout
+    
+        
