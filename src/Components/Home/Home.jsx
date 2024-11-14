@@ -32,7 +32,6 @@ import "animate.css"
 import diamond from "../../Assets/images/roll-diamond.png"
 import bgimage from "../../Assets/images/bg-image.png"
 
-
 const Home = () => {
 
   return (
@@ -76,7 +75,6 @@ const Home = () => {
             <img src={award2} alt="" />
             <img src={award3} alt="" />
         </section>
-
         <Credentials/>
         <Services />
 

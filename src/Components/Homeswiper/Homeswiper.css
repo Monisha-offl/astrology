@@ -1,0 +1,150 @@
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .yy .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .yy .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: var(--pink-bg); */
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .yy .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .yy{
+    width: 100%;
+    height: 100%;
+    background-color: var(--pink-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .award-des123{
+    width: 100%;
+    height: 100%;
+    padding: 0 10%;
+    display: flex;
+    margin: 20px 0;
+    background-color: var(--pink-bg);
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  .award-img123{
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  .award-img123 img{
+    width: 100%;
+    height: 100%;
+  }
+  .award-para123{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--border-color);
+  }
+  .award-para123 h1{
+    font-size: 40px;
+  }
+  .award-para123 p{
+    line-height: 30px;
+    text-align: start;
+  }
+  
+  @media screen and (max-width:600px){
+    .yy{
+      width: 100%;
+      height: 100%;
+      background-color: var(--pink-bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .yy .swiper {
+      width: 100%;
+      height: fit-content;
+      background-color:var(--pink-bg);
+      padding: 0;
+      height: fit-content;
+    }
+    .yy .award-des{
+      width: 100%;
+      height: 100%;
+    }
+    .yy .swiper-slide {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+    }
+    
+    .yy .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+    .yy .mySwiper {
+        position: relative;
+      }
+      .award-des123{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 30px;
+      }
+      .award-img123{
+        width: 100%;
+        height: 100%;
+        display: flex;
+      }
+      .award-img123 img{
+        width: 100%;
+        height: 100%;
+      }
+      .award-para123{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .award-para123 h1{
+        font-size: 28px;
+      }
+
+    }
