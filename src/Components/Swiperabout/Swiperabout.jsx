@@ -22,7 +22,7 @@ import celebritiespic4 from "../../Assets/images/celebritiespic4.png"
     
     const Swiperabout = () => {
       return (
-        <div>
+        <>
           <div className='aboutswiper'>
         <Swiper
             spaceBetween={30}
@@ -35,20 +35,20 @@ import celebritiespic4 from "../../Assets/images/celebritiespic4.png"
             className="mySwiper"
         >
             <SwiperSlide>
-            <img src={celebritiespic1} alt="" className='celebritiespic1'/>
+             <img src={celebritiespic1} alt="" className='celebritiespic1'/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src={celebritiespic2} alt="" className='celebritiespic1'/>
+              <img src={celebritiespic2} alt="" className='celebritiespic1'/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src={celebritiespic3} alt="" className='celebritiespic1'/>
+              <img src={celebritiespic3} alt="" className='celebritiespic1'/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src={celebritiespic4} alt="" className='celebritiespic1'/>
+             <img src={celebritiespic4} alt="" className='celebritiespic1'/>
             </SwiperSlide>
         </Swiper>
     </div>
-        </div>
+        </>
       )
     }
     
