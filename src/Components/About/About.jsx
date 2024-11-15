@@ -114,7 +114,7 @@ const About = () => {
       <div className='aboutinner13'>
         <div className='ableft1234'>
          <div className='ableft124'>
-         <Swiperabout/>
+          <Swiperabout/>
         </div>
       </div>
       <div className='abright1234'>
@@ -131,16 +131,16 @@ const About = () => {
   </div>
 
   <div className='abttop'>
-  <div className='Aboutheader'>
-    <div className='aboutinner'>
-      <div className='ableft'>
-      </div>
-      <div className='abright'>
-        <img src={prologo} alt="" className='pro-logo'/>
+    <div className='Aboutheader'>
+      <div className='aboutinner'>
+        <div className='ableft'>
+        </div>
+        <div className='abright'>
+          <img src={prologo} alt="" className='pro-logo'/>
+        </div>
       </div>
     </div>
-  </div>
-  <div className='Aboutheader1'>
+    <div className='Aboutheader1'>
       <div className='aboutinner1'>
         <div className='ableft123'>
          <div className='ableft12'>
@@ -152,9 +152,9 @@ const About = () => {
         <p>Beyond astrological predictions, Dr. Sohini Sastri, the best astrologer in Mumbai, has facilitated miraculous transformations through spiritual interventions, effectively removing negative energies and providing profound relief to her clients. Her compassionate counseling sessions empower clients to navigate through life’s challenges with optimism and resilience.</p>
         <h4>With a vast clientele spanning the nation, Dr. Sohini Sastri boasts an unparalleled satisfaction rate, with 99.99% of her clients returning for her trusted guidance. Renowned for her honesty and integrity, she has become the go-to astrologer for Bollywood celebrities and common individuals alike.</h4>
         <button className='call-btn'>BOOK A CALL</button>        
+       </div>
       </div>
     </div>
-  </div>
   </div>
         {/* <section className='problem-solver-wholediv'>
         <div className='ch'>
