@@ -328,7 +328,6 @@
     align-items: center;
     justify-content: center;
     background-color:white;
-    background-color: green;
 }
 .Aboutheader12{
     width: 100%;
@@ -348,7 +347,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: yellow;
 }
 .aboutinner12{
     width: 70%;
@@ -362,7 +360,6 @@
     width: 60%;
     height: 100%;
     display: flex;
-    background-color: orange;
 }
 .abright{
     width: 100%;
@@ -372,7 +369,6 @@
     justify-content:center;
     flex-direction: column;
     padding: 20px;
-    background-color: aqua;
 }
 
 .ableft12{
@@ -396,7 +392,6 @@
     align-items: center;
     justify-content: center;
     background-color: var(--about-bg);
-    background-color: goldenrod;
 }
 .aboutinner1{
     width: 70%;
@@ -404,7 +399,6 @@
     display: flex;
     align-items: flex-end;
     justify-content:flex-end;
-    background-color: rebeccapurple;
 }
 .ableft123{
     width: 28%;
@@ -413,7 +407,6 @@
     position: absolute;
     left: 12%;
     top: 17%;
-    background-color: red;
 
 }
 .Aboutheader13{
@@ -440,7 +433,6 @@
     width: 100%;
     height: 100%;
     position: relative;
-    background-color: red;
     
 }
 .abttop12{
@@ -452,7 +444,6 @@
     width: 100%;
     height: 100%;
     display: flex;
-    background-color: green;
 } 
 .ableft124{
     width: 100%;
@@ -468,7 +459,6 @@
     flex-direction: column;
     padding: 20px 0px 20px 0px;
     gap: 20px;
-    background-color: brown;
 }
 .abright1234{
     width: 60%;
